@@ -29,10 +29,40 @@ st.markdown("""
 
 # --- Danh sách sản phẩm (giá VNĐ) ---
 products = {
-    "iPhone 15": {"price": 23990000, "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15-select-2023?wid=940&hei=1112&fmt=png-alpha&.v=1692927179096"},
-    "MacBook Air M2": {"price": 28990000, "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-m2-hero-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653493200207"},
-    "AirPods Pro (2nd Gen)": {"price": 5790000, "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803972361"},
+    "iPhone 15": {
+        "price": 23990000,
+        "image": "https://cdn.tgdd.vn/Products/Images/42/305659/iphone-15-pink-thumb-600x600.jpg"
+    },
+    "iPhone 15 Pro Max": {
+        "price": 33990000,
+        "image": "https://cdn.tgdd.vn/Products/Images/42/303891/iphone-15-pro-max-blue-thumbnew-600x600.jpg"
+    },
+    "MacBook Air M2": {
+        "price": 28990000,
+        "image": "https://cdn.tgdd.vn/Products/Images/44/299570/macbook-air-m2-2023-8-core-cpu-256gb-thumb-600x600.jpg"
+    },
+    "MacBook Pro M3": {
+        "price": 43990000,
+        "image": "https://cdn.tgdd.vn/Products/Images/44/317922/macbook-pro-14-m3-2023-xam-thumb-600x600.jpg"
+    },
+    "iPad Gen 10": {
+        "price": 10490000,
+        "image": "https://cdn.tgdd.vn/Products/Images/522/289577/ipad-gen-10-silver-thumb-600x600.jpg"
+    },
+    "Apple Watch Series 9": {
+        "price": 10990000,
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/315693/apple-watch-s9-41mm-vien-nhom-day-silicone-hong-thumb-1-600x600.jpg"
+    },
+    "Apple Vision Pro (Concept)": {
+        "price": 79990000,
+        "image": "https://cdn.pocket-lint.com/r/s/970x/assets/images/165415-headphones-review-apple-vision-pro-review-images-image1-0b9whr1kgq.jpg"
+    },
+    "Apple Pencil Gen 2": {
+        "price": 3290000,
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/215386/apple-pencil-2nd-gen-apple-thumb-600x600.jpg"
+    }
 }
+
 
 # --- Session state để lưu giỏ hàng ---
 if "cart" not in st.session_state:
