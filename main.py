@@ -6,9 +6,9 @@ st.set_page_config(page_title="Cửa hàng Apple Mini", layout="wide")
 # --- Thanh điều hướng trên cùng ---
 col1, col2, col3 = st.columns([1, 5, 1])
 with col1:
-    st.page_link("pages/1_Đăng_nhập.py", label="🔐 Đăng nhập", icon="➡️")
+    st.page_link("Đăng_nhập.py", label="🔐 Đăng nhập", icon="➡️")
 with col3:
-    st.page_link("pages/2_Tạo_tài_khoản.py", label="🆕 Đăng ký", icon="📝")
+    st.page_link("Tạo_tài_khoản.py", label="🆕 Đăng ký", icon="📝")
 
 # --- CSS tùy chỉnh cho màu nền xám/trắng/đen ---
 st.markdown("""
