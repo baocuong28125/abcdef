@@ -3,7 +3,12 @@ import streamlit as st
 # --- Thiết lập trang ---
 st.set_page_config(page_title="Cửa hàng Apple Mini", layout="wide")
 
-
+st.markdown("""
+<div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
+    <a href="./pages/Đăng_nhập.py" style="margin-right: 15px;">🔐 Đăng nhập</a>
+    <a href="./pages/Tạo_tài_khoản.py">📝 Đăng ký</a>
+</div>
+""", unsafe_allow_html=True)
 
 # --- CSS tùy chỉnh cho màu nền xám/trắng/đen ---
 st.markdown("""
