@@ -1,4 +1,5 @@
 import streamlit as st
+import json
 
 # --- Thiết lập trang ---
 st.set_page_config(page_title="Cửa hàng Apple Mini", layout="wide")
